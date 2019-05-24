@@ -26,7 +26,8 @@ Do magic things with well log data.
 
 How to load and display SEG-Y files, plus some simple ways to play with the data, e.g. extracting amplitude informations, adding noise & filtering. Also, a notebook entirely dedicated to wedge modeling and how to reproduce a couple of figures from scientific publications.
 
-* [Seismic data in Python](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/seismic_data_in_python.ipynb)
+* [Playing with seismic](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/playing_with_seismic.ipynb)
+* [Playing with seismic (interactive)](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/playing_with_seismic_interactive.ipynb)
 * [Amplitude extraction](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/seismic_amplitude_extraction.ipynb)
 * [Wedge modeling for variable angles of incidence](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/wedge_modeling.ipynb)
 * [Notes on spectral decomposition](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/notes_spec_dec.ipynb)
