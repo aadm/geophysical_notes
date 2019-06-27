@@ -69,14 +69,14 @@ $ conda install -c conda-forge jupyterlab
 Then I install some additional packages with `pip`:
 
 ```
-$ pip install bruges lasio segyio mplstereonet welly
+$ pip install bruges lasio segyio
 ```
 
-Instead of [integrated environments](https://en.wikipedia.org/wiki/Integrated_development_environment) (for example, [Spyder](https://github.com/spyder-ide/spyder)) I simply use a modern (and free!) editor like [Atom](https://atom.io/) to code and write anything (also [my blog](http://aadm.github.io)). However, [JupyterLab](https://github.com/jupyterlab/jupyterlab) gets better everyday and it can already be used to do everything in a browser window (but to me it's still slower than a text editor and a jupyter console window); I like the idea of Juyter Notebooks to distribute commented code and simply as a working tool to make code interact with explanatory text and plots.
+Instead of [integrated environments](https://en.wikipedia.org/wiki/Integrated_development_environment) (for example, [Spyder](https://github.com/spyder-ide/spyder)) I simply use a modern (and free!) editor like [VSCode](https://code.visualstudio.com/) ([Atom](https://atom.io/) is a good alternative) to code and write. However, [JupyterLab](https://github.com/jupyterlab/jupyterlab) gets better everyday and it can already be used to do everything in a browser window (but to me it's still slower than a text editor and a jupyter console window); I like the idea of Juyter Notebooks to distribute commented code and simply as a working tool to make code interact with explanatory text and plots.
 
 ### using SEG-Y data
 
-To read and write SEG-Y data in Python you need additional libraries like  [ObsPy](http://obspy.org), [Segpy](https://github.com/sixty-north/segpy) or Statoil's [segyio](https://github.com/Statoil/segyio). 
+To read and write SEG-Y data in Python you need additional libraries like  [ObsPy](http://obspy.org), [Segpy](https://github.com/sixty-north/segpy) or Equinor's [segyio](https://github.com/equinor/segyio). 
 
 I have recently tested segyio from Statoil and it has immediately become my preferred choice. It is easy to use and fast; it reads a 340 Mb segy in 1 second (while obspy does that in more than 8!):
 
@@ -89,3 +89,7 @@ I have recently tested segyio from Statoil and it has immediately become my pref
 ```
 
 ObsPy is a library with so many functions aimed at research seismologists, and I was only using the segy-reading capabilities, so I'm happy to have switched to a smaller library (which is also way more efficient). Have a look at [this notebook](https://github.com/aadm/geophysical_notes/blob/master/seismic_data_in_python.ipynb) for some examples on how to import seismic data and do stuff.
+
+## license
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
