@@ -78,7 +78,7 @@ Instead of [integrated environments](https://en.wikipedia.org/wiki/Integrated_de
 
 To read and write SEG-Y data in Python you need additional libraries like  [ObsPy](http://obspy.org), [Segpy](https://github.com/sixty-north/segpy) or Equinor's [segyio](https://github.com/equinor/segyio). 
 
-I have recently tested segyio from Statoil and it has immediately become my preferred choice. It is easy to use and fast; it reads a 340 Mb segy in 1 second (while obspy does that in more than 8!):
+My current favourite is however [segysak](https://github.com/trhallam/segysak), based on segyio. In addition to the qualities of the underlying segyio (a 340 Mb file is read in 1 second, while obspy needs 8), it also adds some very cool features to map horizons to seismic cubes (amplitude extraction!).
 
 ```
 # timeit results using segyio:
@@ -88,7 +88,6 @@ I have recently tested segyio from Statoil and it has immediately become my pref
 8.85 s ± 1.07 s per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
 
-ObsPy is a library with so many functions aimed at research seismologists, and I was only using the segy-reading capabilities, so I'm happy to have switched to a smaller library (which is also way more efficient). Have a look at [this notebook](https://github.com/aadm/geophysical_notes/blob/master/seismic_data_in_python.ipynb) for some examples on how to import seismic data and do stuff.
 
 ## license
 
