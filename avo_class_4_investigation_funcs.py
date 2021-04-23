@@ -180,7 +180,6 @@ def softsand(K0, G0, phi, sigma, phi_c=0.4, Cn=8.6, f=1):
     return Kdry, Gdry
 
 
-
 def vels(kdry, gdry, kmin, rho0, kfluid, rhof, phi):
     '''
     Calculate velocities and densities of saturated rock
