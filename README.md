@@ -2,6 +2,7 @@
 
 My collection of geophysical notes written as Jupyter notebooks.
 
+(Mostly obsolete now, don't have time for a proper update; for example I stopped wasting my time with jupyter widgets and Panel for interactive apps and I am now using Streamlit).
 
 # seismic petrophysics
 
