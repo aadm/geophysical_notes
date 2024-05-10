@@ -7,9 +7,9 @@ My collection of geophysical notes written as Jupyter notebooks.
 
 Do magic things with well log data.
 
-* [Seismic Petrophysics](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/seismic_petrophysics.ipynb)
-* [Seismic Petrophysics / interactive](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/seismic_petrophysics_interactive.ipynb)
-* [Rock physics modeling and templates](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/rock_physics_modeling.ipynb)
+* [Seismic Petrophysics](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/seismic_petrophysics.ipynb)
+* [Seismic Petrophysics / interactive](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/seismic_petrophysics_interactive.ipynb)
+* [Rock physics modeling and templates](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/rock_physics_modeling.ipynb)
 
 
 #### support data for "seismic petrophysics"
@@ -26,19 +26,19 @@ Do magic things with well log data.
 
 How to load and display SEG-Y files, plus some simple ways to play with the data, e.g. extracting amplitude informations, adding noise & filtering. Also, a notebook entirely dedicated to wedge modeling and how to reproduce a couple of figures from scientific publications.
 
-* [Playing with seismic](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/playing_with_seismic.ipynb)
-* [Playing with seismic (interactive)](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/playing_with_seismic_interactive.ipynb)
-* [Amplitude extraction](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/seismic_amplitude_extraction.ipynb)
-* [Wedge modeling for variable angles of incidence](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/wedge_modeling.ipynb)
-* [Notes on spectral decomposition](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/notes_spec_dec.ipynb)
-* [Top Heimdal map, or how to reproduce figure 1 from Avseth et al., 2001](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/top_heimdal_map.ipynb)
-* [AVO projections](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/avo_projections.ipynb)
-* [How to calculate AVO attributes](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/avo_attributes.ipynb)
-* [Elastic Impedance](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/elastic_impedance.ipynb)
-* ["The relationship between reflectivity and elastic impedance", or how to reproduce figure 5.62 from Seismic Amplitude by Simm & Bacon (2014)](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/relationship-reflectivity-elastic-impedance_Simm-Bacon.ipynb)
-* [Notes on anisotropic AVO equations](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/anisotropic_avo.ipynb)
-* [AVO Explorer v2: Interactive AVO and AVO classes explorer](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/avo_explorer_v2.ipynb): meant to be downloaded and run locally.
-* [Simple porosity modeling](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/simple_porosity_modeling.ipynb): how to model porosity variations and its effects on elastic properties using the concept of pore stiffness invariance.
+* [Playing with seismic](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/playing_with_seismic.ipynb)
+* [Playing with seismic (interactive)](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/playing_with_seismic_interactive.ipynb)
+* [Amplitude extraction](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/seismic_amplitude_extraction.ipynb)
+* [Wedge modeling for variable angles of incidence](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/wedge_modeling.ipynb)
+* [Notes on spectral decomposition](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/notes_spec_dec.ipynb)
+* [Top Heimdal map, or how to reproduce figure 1 from Avseth et al., 2001](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/top_heimdal_map.ipynb)
+* [AVO projections](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/avo_projections.ipynb)
+* [How to calculate AVO attributes](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/avo_attributes.ipynb)
+* [Elastic Impedance](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/elastic_impedance.ipynb)
+* ["The relationship between reflectivity and elastic impedance", or how to reproduce figure 5.62 from Seismic Amplitude by Simm & Bacon (2014)](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/relationship-reflectivity-elastic-impedance_Simm-Bacon.ipynb)
+* [Notes on anisotropic AVO equations](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/anisotropic_avo.ipynb)
+* [AVO Explorer v2: Interactive AVO and AVO classes explorer](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/avo_explorer_v2.ipynb): meant to be downloaded and run locally.
+* [Simple porosity modeling](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/simple_porosity_modeling.ipynb): how to model porosity variations and its effects on elastic properties using the concept of pore stiffness invariance.
 
 
 #### support data for "seismic stuff"
@@ -55,8 +55,8 @@ How to load and display SEG-Y files, plus some simple ways to play with the data
 
 Other notebook of interest, maybe only tangentially related to geophysics, such as a notebook showing a comparison between colormaps (the dreadful _jet_ against a bunch of better alternatives) and another that uses the well known Gardner's equation as an excuse to practice data fitting in Python.
 
-* [Color palettes](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/colormaps.ipynb)
-* [Inverse Gardner](http://nbviewer.ipython.org/github/aadm/geophysical_notes/blob/master/inverse_gardner.ipynb)
+* [Color palettes](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/colormaps.ipynb)
+* [Inverse Gardner](http://nbviewer.org/github/aadm/geophysical_notes/blob/master/inverse_gardner.ipynb)
 
 
 
